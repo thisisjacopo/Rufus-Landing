@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body,
+div,
+ul,
+img,
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+body {
+  background: white;
+  margin: 0 auto;
+}
+
+h4,
+a,
+nav {
+  font-family: "montserrat", sans-serif;
+  font-size: 9pt;
+  color: rgb(8, 8, 8);
+}
+
+/*********************************************************************************/
+/* HEADER                                                                 */
+/*********************************************************************************/
+.division {
+  border-top: thin;
+  border-top-color: grey;
+}
+
+img.centrata {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 250px;
+  height: auto;
+}
+
+h4.welcome-message {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  color: rgb(14, 14, 14);
+  padding-bottom: 5px;
+}
+
+/*********************************************************************************/
+/* MENU                                                                  */
+/*********************************************************************************/
+
+#menu {
+  border-bottom: 1px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+ul.main-nav#menu {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+}
+.main-nav {
+  text-align: center;
+  line-height: 1.6em;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+nav#menu li {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+}
+
+a,
+li {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 33px;
+  padding-right: 33px;
+  padding-left: 33px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a.menu {
+  background: white;
+  color: black;
+  padding: 1px;
+  position: relative;
+  text-decoration: none;
+  disblay: block;
+}
+
+
+.split2{
+	margin-left: 2%;
+}
+#MACBA {
+  float: left;
+  display: block;
+  width: 45%;
+  height: 480px;
+  background-image: url(../Immagini/rufusMacba.png);
+  background-size: cover;
+  background-position: center;
+  resize: none;
+  background-attachment: scroll;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+#MACBA:hover.menu {
+	padding: 1px;
+	background-color: rgb(19, 18, 18);
+	color: rgb(240, 240, 240);
+	cursor: pointer;
+	position: relative;
+	text-decoration: none;
+	display: block;
+  }
+
+#MILANO {
+  float: left;
+  display: block;
+  width: 45%;
+  height: 480px;
+  background-image: url(../Immagini/RufusMilan.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  resize: none;
+  position: relative;
+  margin-top: 0px;
+}
+
+#MILANO:hover.menu {
+	padding: 1px;
+	background-color: rgb(17, 17, 17);
+	color: rgb(240, 240, 240);
+	cursor: pointer;
+	position: relative;
+	text-decoration: none;
+	display: block;
+  }
+
+.linkshop2,
+.linkshop1 {
+  text-align: center;
+  color: rgba(14, 13, 13, 0);
+  font-family: "montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 300px;
+  height: 50px;
+  top: 0px;
+}
+
+.linkshop1:hover,
+.linkshop2:hover {
+  background-color: rgba(25, 25, 25, 0.85);
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  display: block;
+  transition-property: all;
+  transition-duration: 0s;
+  transition-timing-function: all;
+  transition-delay: 0s;
+  height: 500px;
+  width: auto;
+  bottom: 50px;
+  line-height: 480px;
+}
+
+/*********************************************************************************/
+/* SPECIAL                                                             */
+/*********************************************************************************/
+
+#Special {
+  padding-bottom: 100px;
+  background-image: url(../Immagini/f.jpg);
+  background-size: cover;
+  resize: none;
+  background-attachment: scroll;
+  max-height: 150px;
+  margin-top: 0px;
+}
+
+.Special {
+  font-size: 45px;
+  font-weight: bolder;
+  margin-top: 42%;
+  margin-bottom: 0%;
+  padding-top: 140px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-family: "montserrat", sans-serif;}
+
+.description {
+  font-family: "montserrat", sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*********************************************************************************/
+/* FOOTER                                                             */
+/*********************************************************************************/
+.division-info-start {
+  padding-top: 55px;
+  border-top: thin;
+  border-top-color: grey;
+}
+
+.division-info-end {
+  padding-top: 5px;
+  border-top: thin;
+  border-top-color: grey;
+}
+
+.fa-map-marker {
+  margin-right: 10px;
+}
+
+.info-macba {
+  float: left;
+  display: block;
+  width: 45%;
+  color: black;
+  font-family: "lato", sans-serif;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.info-milano {
+  float: left;
+  display: block;
+  width: 45%;
+  color: black;
+  font-family: "montserrat", sans-serif;  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 53px;
+  font-size: 12px;
+}
+
+.social-macba {
+  margin-top: 10px;
+}
+.social-milano {
+  margin-top: 10px;
+}
+
+.orari {
+  margin-top: 0px;
+  height: 0px;
+  text-align: center;
+}
+
+div.footer {
+  margin-top: 100px;
+  padding: 20px;
+}
